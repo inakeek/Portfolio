@@ -33,5 +33,4 @@ En este apartado se incluyen capturas de los proyectos que he realizado.
 
 Finalmente generamos un footer con los mismos enlaces que en la sección inicio.
 
-![Inspiración_1][def]
-[def]: /img/marvaamonde-small.png
+![Inspiración_1](/img/marvaamonde-small.png)
