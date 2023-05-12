@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+    <!-- Menú encabezado -->
+      <div class="contenedor-header"> 
+        <header>
+             <div class="logo">  
+                <a href="#">Iñaki </a>
+             </div>
+             <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI </a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM </a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>  
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO   </a> </li>    
+                </ul>
+             </nav>
+             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i> 
+             </div>
+        </header>
+      </div>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img"><img src="img/Polish_20230418_101946308.png" alt="" ></div>
+            <h1>IÑAKI LÓPEZ</h1> 
+            <h2>Web Developer - Programmer</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a> 
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Sección Sobre mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Iñaki López.</span> Estudiante de Desarrollo y Diseño web. Autodidacta. Me apasiona todo lo relacionado con el sector.</p>
+            <div class="fila">
+                <!-- Datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            10-04-2000
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 663 329 741
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Email</strong>
+                            inakilopez2000@gmail.com
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Dirección</strong>
+                            Gijón, Asturias, España
+                        </li>
+                    </ul>
+                </div>
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>Tecnología</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>Mac OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>Diseño Tech</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Videojuegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i> 
+                            <span>Música</span>
+                        </div> 
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Fútbol</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-fire-burner"></i>
+                            <span>Cocinar</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section> 
+
+     <!-- Sección Skills -->
+     <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skills -->
+                 <div class="col"> 
+                    <h3>Technical Skills</h3>
+                     <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                     </div> 
+                     <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="skill">
+                        <span>Databases</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="skill">
+                        <span>WordPress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="skill">
+                        <span>SalesForce</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                     </div>
+                 </div> 
+                 <!-- Professional Skills -->
+                 <div class="col"> 
+                    <h3>Professional Skills</h3>
+                     <div class="skill">
+                        <span>Aprendizaje Continuo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85 %</span>
+                            </div>
+                        </div>
+                     </div> 
+                     <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>83%</span>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Sección Curriculum -->
+     <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ciclo formativo de grado superior Desarrollo de Aplicaciones Web</h4>
+                        <span class="casa">AFA Formación</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>El estudio de las herramientas y técnicas necesarias para diseñar, desarrollar, implementar y mantener aplicaciones web. Esto incluye el aprendizaje de lenguajes de programación web como HTML, CSS, JavaScript, así como también de frameworks y librerías populares como React, Angular, Vue.js, Node.js, y bases de datos como MySQL y MongoDB.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de Analista y Programador en SalesForce</h4>
+                        <span class="fecha">Marzo 2023 - Julio 2023 (200 horas)</span>
+                        <p>Diseñar, desarrollar, personalizar, implementar y mantener aplicaciones empresariales basadas en la plataforma Salesforce.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de Diseño Gráfico y  Edición Digital</h4>
+                        <span class="fecha">2022 (320 horas)</span>
+                        <p> Teoría del color, composición, tipografía, herramientas y técnicas de diseño gráfico (por ejemplo, Adobe Photoshop, Illustrator e InDesign), edición y manipulación de imágenes.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de Ciencia de Datos</h4>
+                        <span class="fecha">2021-2022 (320 horas)</span>
+                        <p>Estadísticas y probabilidad, herramientas y técnicas para obtener y limpiar datos, análisis exploratorio de datos, modelado y predicción de datos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Hardware/Software Repair Helper</h4>
+                        <span class="casa">SISTAC ILS, S.L</span>
+                        <span class="fecha">Junio 2022</span>
+                        <p>Reparación de Hardware. <br>
+                        <br>Mantenimiento de sistemas operativos On premise.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Junior Full Stack Developer</h4>
+                        <span class="casa">De Otra Forma</span>
+                        <span class="fecha">Agosto 2022</span>
+                        <p>Gestión de WordPress. <br>
+                        <br>Edición en Photoshop e Illustrator. <br>
+                        <br>HTML y CSS. <br></p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+      <!-- Sección Portfolio -->
+      <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion"> 
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="/img/htmlcss.png" alt="">
+                    <div class="overlay">
+                        <h3>HTML & CSS</h3>
+                        <p>Desarrollo Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/java.png" alt="">
+                    <div class="overlay">
+                        <h3>Java</h3>
+                        <p>Programación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/salesforce.png" alt="">
+                    <div class="overlay">
+                        <h3>SalesForce</h3>
+                        <p>CRM</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/Wordpress.png" alt="">
+                    <div class="overlay">
+                        <h3>WordPress</h3>
+                        <p>Desarrollo Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/mysql.png" alt="">
+                    <div class="overlay">
+                        <h3>MySQL & MongoDB</h3>
+                        <p>Databases</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/img/javascript.png" alt="">
+                    <div class="overlay">
+                        <h3>JavaScript</h3>
+                        <p>Desarrollo Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Sección Contacto -->
+      <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Teléfono">
+                    <input type="text" placeholder="Correo electrónico">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje  <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="/img/Ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Gijón, Asturias, España
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Contacte: +34 663329741
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                inlopaniagua@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+       <!-- Footer -->
+      <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i> 
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a> 
+        </div>
+      </footer>
+
+      <script src="/script.js"></script>
+</body>
+</html>
