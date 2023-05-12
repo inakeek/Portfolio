@@ -1,7 +1,5 @@
 # Portfolio
 
-# Html
-
 ## Menú encabezado
 
 Comencé creando un menú en el encabezado en el cual:
@@ -33,4 +31,15 @@ En este apartado se incluyen capturas de los proyectos que he realizado.
 
 Finalmente generamos un footer con los mismos enlaces que en la sección inicio.
 
-![Inspiración_1](/img/marvaamonde-small.png)
+
+#Inspiración
+
+![Inspiración_1](/img/PfAdobe.jpg)
+
+![Inspiración_2](/img/marvaamonde-small.png)
+
+![Inspiración_3](/img/nelliedegoguel.jpeg)
+
+
+
+
